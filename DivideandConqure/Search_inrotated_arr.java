@@ -43,7 +43,7 @@ public class Search_inrotated_arr {
     public static void main(String[] args) {
         int arr[]={4,5,6,7,0,1,2}; 
         int target =0;
-        int targetidx = search(arr, target, 0 , arr.length-1);
-        System.out.println(targetidx);
+        
+        System.out.println(search(arr, target, 0 , arr.length-1));
     }
 }
